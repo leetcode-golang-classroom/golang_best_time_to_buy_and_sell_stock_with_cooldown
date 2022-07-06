@@ -87,7 +87,7 @@ dp[i, true] = max(dp[i+1, false] - prices[i], dp[i+1, true]) 代表
 
 而最後所就就是 db_buy[0]
 
-因為一開始沒有股票 第一步只能賣
+因為一開始沒有股票 第一步只能買
 
 因為只要 loop n 個 開始日 時間複雜度是 O(n)
 
